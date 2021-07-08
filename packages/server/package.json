@@ -1,6 +1,7 @@
 {
   "name": "server",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "main": "dist/main.js",
   "scripts": {
     "prestart": "tsc --build",
     "start-build": "tsc --build --watch",

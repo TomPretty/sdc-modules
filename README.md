@@ -116,3 +116,18 @@ import { getFormattedDate } from "shared/lib";
 ```
 
 to try and split it up a little. I'm not sure how this works but we could definitely chat to Simon about it!
+
+Another potential solution is to just use more packages:
+
+```bash
+.
+├── package.json
+├── tsconfig.json
+├── packages
+│   ├── components
+│   ├── server
+│   ├── types
+│   └── lib
+```
+
+I've created another [branch](https://github.com/TomPretty/sdc-modules/tree/more-packages) that goes for this approach. I think it works out quite nicely.

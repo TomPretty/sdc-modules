@@ -1,5 +1,5 @@
 import React from "react";
-import { BannerProps } from "shared";
+import { BannerProps } from "@sdc/types";
 
 export const ContributionsEpic: React.FC<BannerProps> = ({
   content,

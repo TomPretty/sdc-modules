@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "shared": "1.0.0"
+    "@sdc/lib": "1.0.0",
+    "@sdc/types": "1.0.0"
   }
 }

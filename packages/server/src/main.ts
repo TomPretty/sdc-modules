@@ -1,5 +1,6 @@
 import express from "express";
-import { EpicProps, BannerProps, getFormattedDate } from "shared";
+import { BannerProps, EpicProps } from "@sdc/types";
+import { getFormattedDate } from "@sdc/lib";
 
 const app = express();
 

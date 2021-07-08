@@ -1,5 +1,5 @@
 import React from "react";
-import { EpicProps } from "shared";
+import { EpicProps } from "@sdc/types";
 
 export const ContributionsEpic: React.FC<EpicProps> = ({
   content,

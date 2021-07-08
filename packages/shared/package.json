@@ -5,5 +5,8 @@
 	"types": "dist/index.d.ts",
 	"devDependencies": {
 		"typescript": "^4.3.2"
+	},
+	"dependencies": {
+		"date-fns": "^2.22.1"
 	}
 }

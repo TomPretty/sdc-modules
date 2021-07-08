@@ -1,5 +1,5 @@
 import express from "express";
-import { EpicProps, BannerProps } from "shared";
+import { EpicProps, BannerProps, getFormattedDate } from "shared";
 
 const app = express();
 
@@ -29,6 +29,10 @@ app.get("/banner", (_req, res) => {
   };
 
   res.json({ props });
+});
+
+app.get("/date", (_req, res) => {
+  res.json({ date: getFormattedDate() });
 });
 
 const PORT = 1234;

@@ -4,6 +4,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "server": "yarn workspace server",
+    "components": "yarn workspace components",
+    "shared": "yarn workspace shared",
     "lint": "eslint '*/**/*.{ts,tsx}'",
     "build": "tsc --build"
   },
